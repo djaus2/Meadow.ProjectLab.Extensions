@@ -8,6 +8,7 @@ Extended demo projects for Meadow ProjectLab.
 ## Links
 - The target board:  [The Wilderness Labs project V3](https://store.wildernesslabs.co/collections/frontpage/products/project-lab-board)
 - [Meadow ProjectLab_Demo](https://github.com/WildernessLabs/Meadow.ProjectLab/tree/main/Source/)
+- [Meadow ProjectLab Samples](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples)
 - [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples) 
 
 ## WiFi Demo
