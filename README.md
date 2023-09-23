@@ -15,8 +15,7 @@ Extended demo projects for Meadow ProjectLab.
 ## WiFi Demo
 
 This project is based upon the [Meadow ProjectLab_Demo](https://github.com/WildernessLabs/Meadow.ProjectLab/tree/main/Source/). It needs the project **Meadow.ProjectLab** located with that project. _(You need to clone that GitHub project and then add the Meadow.ProjectLab project as a project reference to this project.)_ OR...
-
-Or ...Aearch and install the following NuGet packages: _(To be tested)_
+OR ...Search and install the following NuGet packages: _(To be tested)_
 - Meadow.ProjectLab
 - Meadow.Foundation.Graphics.MicroLayout
 
