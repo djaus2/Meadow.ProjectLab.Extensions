@@ -8,7 +8,7 @@ The WiFi functionality is based upon the [Meadow.Core.Samples WiFi_Basics](https
 
 > Nb: Currently a .netstandard2.1 project
 
-![The board](https://store.wildernesslabs.co/cdn/shop/files/Project_Lab_v3_Carbon_Edition_02380d21-b767-4f53-a067-e3aa099fd6e8_1024x1024@2x.jpg?v=1684514631)
+![The board](./theboard.png)
 
 ## Links
 
