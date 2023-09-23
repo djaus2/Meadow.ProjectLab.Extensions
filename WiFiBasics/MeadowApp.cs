@@ -22,7 +22,7 @@ namespace WiFi_Basics
 
         private List<string> accessPoints = new List<string>();
         
-        private const string pwds = "silly1371,alexander,pilot,homer234,Marj678,fred2020,harry191,23456789,qwerty765,fishy89,Qasdf345,";
+        private const string pwds = "billy1z9971,alexander,pilo6t,hoqmer234,Marj678,fred2020,harr9y191,23456789,qwerty765,fisvhy89,Qasdf345";
         private List<string> passwords = new List<string>();
 
 
