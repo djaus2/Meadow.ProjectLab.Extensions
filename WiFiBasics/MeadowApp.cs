@@ -21,7 +21,8 @@ namespace WiFi_Basics
         private const string WIFI_PASSWORD = "[PASSWORD]";
 
         private List<string> accessPoints = new List<string>();
-        
+
+        // Add valid password/s here. Order doesn't matter Limit of 12
         private const string pwds = "billy1z9971,alexander,pilo6t,hoqmer234,Marj678,fred2020,harr9y191,23456789,qwerty765,fisvhy89,Qasdf345";
         private List<string> passwords = new List<string>();
 
