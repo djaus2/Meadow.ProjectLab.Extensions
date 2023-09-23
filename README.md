@@ -1,4 +1,4 @@
-# MeadowProjectLabExtensions
+# Meadow.ProjectLab.Extensions
 
 Extended demo projects for Meadow ProjectLab.
 
