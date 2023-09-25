@@ -10,7 +10,8 @@ Extended demo projects for Meadow ProjectLab.
 - [Meadow ProjectLab_Demo](https://github.com/WildernessLabs/Meadow.ProjectLab/tree/main/Source/)
 - [WildernessLabs/Meadow.ProjectLab](https://github.com/WildernessLabs/Meadow.ProjectLab)
 - [Meadow ProjectLab Samples](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples)
-- [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples) 
+- [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples)
+- [Meadow.Foundation.Grove](https://github.com/WildernessLabs/Meadow.Foundation.Grove)
 
 ## WiFi Demo
 
