@@ -31,7 +31,7 @@ The WiFi functionality is based upon the [Meadow.Core.Samples WiFi_Basics](https
 Demonstrates loopback serial transmission.  
 - Uses COM1. 
 - Jumper COM1 Tx to Rx in mikroBUS socket 1 _(Not socket2)_
-- Adapdted from **[Meadow.Core.Samples]/IO/SerialPort_Echo project**
+- Adapted from **[Meadow.Core.Samples]/IO/SerialPort_Echo project**
 
 ![COM1 Jumpered](./com1jumper.jpg)
 
