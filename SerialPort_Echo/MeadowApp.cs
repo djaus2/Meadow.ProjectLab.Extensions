@@ -43,7 +43,7 @@ namespace SerialPort_Echo
             while (true)
             {
                 
-#if EchoOnDevice
+#if !EchoToTerminal
                 string msgOut = "Hello Meadow!";
                 Resolver.Log.Info($"Writing data: \"{msgOut}\"");
                 port.Write(System.Text.Encoding.ASCII.GetBytes(msgOut));
@@ -65,7 +65,7 @@ namespace SerialPort_Echo
                 var read = port.Read(buffer, 0, dataLength);
                 if (read == 0)
                 {
-#if EchoOnDevice
+#if !EchoToTerminal
                     Resolver.Log.Info($"Read {read} bytes");
 #else
                     msgIn = "";
@@ -77,9 +77,8 @@ namespace SerialPort_Echo
                     msgIn = System.Text.Encoding.UTF8.GetString(buffer, 0, buffer.Length);
                     Resolver.Log.Info($"Read {read} bytes. Received message: \"{msgIn}\"");;
                 }
-#if EchoOnDevice
+#if !EchoToTerminal
                 await Task.Delay(2000);
-#else
 #endif
             }
         }
