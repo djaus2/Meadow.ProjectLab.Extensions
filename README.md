@@ -24,7 +24,7 @@ The WiFi functionality is based upon the [Meadow.Core.Samples WiFi_Basics](https
 
 ### Further Links
 - [UeberDaniel/Meadow-Ws2812Display-Driver](https://github.com/UeberDaniel/Meadow-Ws2812Display-Driver)
-- Alternaive approach: [MicroLayout Library](http://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Libraries_and_Frameworks/MicroLayout/)
+- Alternative approach: [MicroLayout Library](http://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Libraries_and_Frameworks/MicroLayout/)
 
 ## SerialPort_Echo
 
