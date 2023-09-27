@@ -39,27 +39,48 @@ namespace SerialPort_Echo
         {
             var buffer = new byte[1024];
 
+            string msgIn = "Start typing";
             while (true)
             {
+                
+#if EchoOnDevice
                 string msgOut = "Hello Meadow!";
                 Resolver.Log.Info($"Writing data: \"{msgOut}\"");
                 port.Write(System.Text.Encoding.ASCII.GetBytes(msgOut));
                 port.Write(new byte[] { 0 }); //Null terminate string
+                port.Write(new byte[] { (byte)'\r',(byte)'\n',0 });//Make viewable in serial terminal.
+#else
+                if(!string.IsNullOrEmpty(msgIn))
+                {
+                    port.Write(System.Text.Encoding.ASCII.GetBytes(msgIn));
+                    await Task.Delay(2000);
+                }
+                else
+                {
+                    await Task.Delay(200);
+                }
+
+#endif
                 var dataLength = port.BytesToRead;
                 var read = port.Read(buffer, 0, dataLength);
                 if (read == 0)
                 {
+#if EchoOnDevice
                     Resolver.Log.Info($"Read {read} bytes");
+#else
+                    msgIn = "";
+#endif
                 }
                 else
                 {
                     Resolver.Log.Info($"Read {read} bytes: {BitConverter.ToString(buffer, 0, read)}");
-                    string msgIn = System.Text.Encoding.UTF8.GetString(buffer, 0, buffer.Length);
-                    Resolver.Log.Info($"Read {read} bytes. Received message: \"{msgIn}");
-                    Resolver.Log.Info("\"");
+                    msgIn = System.Text.Encoding.UTF8.GetString(buffer, 0, buffer.Length);
+                    Resolver.Log.Info($"Read {read} bytes. Received message: \"{msgIn}\"");;
                 }
-
+#if EchoOnDevice
                 await Task.Delay(2000);
+#else
+#endif
             }
         }
     }

@@ -35,6 +35,13 @@ Demonstrates loopback serial transmission.
 
 ![COM1 Jumpered](./com1jumper.jpg)
 
+### Update Version 2
+
+- To use in Echo mode need to define EchoOnDevice
+- Alternatively requires Serial connection from COM1 to PC running Serial Terminal.
+  - For example use USB-Serial connection with COM1 as shown:  
+![COM1 USB-Serial](./usbserial.jpg)
+
 
 
 
