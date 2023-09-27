@@ -13,7 +13,7 @@ Extended demo projects for Meadow ProjectLab.
 - [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples)
 - [Meadow.Foundation.Grove](https://github.com/WildernessLabs/Meadow.Foundation.Grove)
 
-> Nb: Currently a .netstandard2.1 projects
+> Nb: Currently .netstandard2.1 projects
 
 ## WiFi Demo
 
@@ -21,6 +21,10 @@ This project is based upon the [Meadow ProjectLab_Demo](https://github.com/Wilde
 
 The WiFi functionality is based upon the [Meadow.Core.Samples WiFi_Basics](https://github.com/WildernessLabs/Meadow.Core.Samples/tree/main/Source/Network/WiFi_Basics/CS) project. 
 > This project demonstrates using the display in a reusable manner, as a menu. The user selects a network from the locally found WiFi access poinst and then selects from a given list of passwords.
+
+### Further Links
+- [UeberDaniel/Meadow-Ws2812Display-Driver](https://github.com/UeberDaniel/Meadow-Ws2812Display-Driver)
+- Alternaive approach: [MicroLayout Library](http://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Libraries_and_Frameworks/MicroLayout/)
 
 ## SerialPort_Echo
 
@@ -30,8 +34,6 @@ Demonstrates loopback serial transmission.
 - Adapdted from **[Meadow.Core.Samples]/IO/SerialPort_Echo project**
 
 
-### Further Links
-- [UeberDaniel/Meadow-Ws2812Display-Driver](https://github.com/UeberDaniel/Meadow-Ws2812Display-Driver)
 
 
 
