@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPort_Echo", "SerialPort_Echo\SerialPort_Echo.csproj", "{23A50210-DCF1-47C7-8B5D-CE1812CF7BAF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalIO", "DigitalIO\DigitalIO.csproj", "{D937FE81-5541-4EAC-B846-6FBA45C57D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,12 @@ Global
 		{23A50210-DCF1-47C7-8B5D-CE1812CF7BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A50210-DCF1-47C7-8B5D-CE1812CF7BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23A50210-DCF1-47C7-8B5D-CE1812CF7BAF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

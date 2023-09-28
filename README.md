@@ -43,6 +43,12 @@ Demonstrates loopback serial transmission.
   - For example use USB-Serial connection with COM1 as shown:  
 ![COM1 USB-Serial](./usbserial.jpg)
 
+## DigitalInputPort
+
+Toggle an LED with a pushbutton
+- Connect Grove LED to Grove UART socket on right of ProjectLab
+- Connect Grove Pushbutton to Grove Digital socket on right of ProjectLab
+
 
 
 
