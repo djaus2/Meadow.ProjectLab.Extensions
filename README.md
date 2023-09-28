@@ -35,7 +35,7 @@ Demonstrates loopback serial transmission.
 
 ![COM1 Jumpered](./com1jumper.jpg)
 
-### Update: Version 2
+#### Update: Version 2
 
 - Alternatively define **EchoToTerminal**
   - Requires Serial connection from COM1 to PC running Serial Terminal (eg Putty).
@@ -43,17 +43,23 @@ Demonstrates loopback serial transmission.
   - For example use USB-Serial connection with COM1 as shown:  
 ![COM1 USB-Serial](./usbserial.jpg)
 
-## Grove Digital IO
+## Grove Digital IO and Analog In 
 
 ***Project:* DigitalIO**  
 
 Toggle an LED with a pushbutton
 - Connect Grove LED to Grove UART socket on right of ProjectLab
 - Connect Grove Pushbutton to Grove Digital socket on right of ProjectLab
+- Ref: [Meadow_Basics/IO/Digital/](http://developer.wildernesslabs.co/Meadow/Meadow_Basics/IO/Digital/)
 
-### Alternatives
+#### Alternatives
 - The LED can be replaced with the Grove Buzzer, or the Grove Relay etc.
 - The Grove Touch sensor can be used instead of the pushbutton.
+
+### Analog In (Update V2)
+Simple voltage reading, nonevent driven.
+- Add Grove Angle Sensor (Potentiometer) (or similar) to Grove Analog Socket on ProjectLab right
+- Ref: [Meadow_Basics/IO/Analog/](http://developer.wildernesslabs.co/Meadow/Meadow_Basics/IO/Analog/)
 
 
 

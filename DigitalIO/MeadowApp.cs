@@ -1,6 +1,7 @@
 ﻿using Meadow;
 using Meadow.Devices;
 using Meadow.Hardware;
+using Meadow.Units;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +18,15 @@ namespace DigitalInputPort
         private List<IDigitalOutputPort> outputs = new List<IDigitalOutputPort>();
 
         private IDigitalOutputPort outputLED;
+        private IAnalogInputPort analogIn;
 
         public override Task Initialize()
         {
             outputLED = Device.CreateDigitalOutputPort(Device.Pins.D00, true);
             outputs.Add(outputLED);
-            
+
+            analogIn = Device.CreateAnalogInputPort(Device.Pins.A00);
+
             TimeSpan debounceDuration = TimeSpan.FromMilliseconds(20);
             //var pushButton = Device.Pins.D16.CreateDigitalInterruptPort(InterruptMode.EdgeBoth, ResistorMode.Disabled);
             //var pushButton = Device.Pins.D16.CreateDigitalInterruptPort(InterruptMode.EdgeBoth, ResistorMode.InternalPullUp);
@@ -68,7 +72,11 @@ namespace DigitalInputPort
                     // Toggle LED when pressed
                     var pin = outputLED; ;
                     pin.State = !pin.State;
-                    Resolver.Log.Info($"\t{pin.Pin.Name} LED state changed to {pin.State}");
+                    Resolver.Log.Info($"{pin.Pin.Name} LED state changed to {pin.State}");
+
+                    var res  = analogIn.Read().GetAwaiter();
+                    var voltage = (Voltage)res.GetResult();
+                    Resolver.Log.Info($"Voltage on A0: {voltage}");
                 }
             }
         }
