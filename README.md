@@ -49,6 +49,10 @@ Toggle an LED with a pushbutton
 - Connect Grove LED to Grove UART socket on right of ProjectLab
 - Connect Grove Pushbutton to Grove Digital socket on right of ProjectLab
 
+### Alternatives
+- The LED can be replaced with the Grove Buzzer, or the Grove Relay etc.
+- The Gove Touch sensor can be used instead of the pushbutton.
+
 
 
 
