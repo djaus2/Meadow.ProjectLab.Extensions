@@ -53,7 +53,7 @@ Toggle an LED with a pushbutton
 
 ### Alternatives
 - The LED can be replaced with the Grove Buzzer, or the Grove Relay etc.
-- The Gove Touch sensor can be used instead of the pushbutton.
+- The Grove Touch sensor can be used instead of the pushbutton.
 
 
 
