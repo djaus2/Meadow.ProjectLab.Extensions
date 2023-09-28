@@ -45,7 +45,7 @@ Demonstrates loopback serial transmission.
 
 ## Grove Digital IO
 
-***Project:* DigitalI**O
+***Project:* DigitalIO**  
 
 Toggle an LED with a pushbutton
 - Connect Grove LED to Grove UART socket on right of ProjectLab
