@@ -63,8 +63,8 @@ Simple voltage reading, nonevent driven.
 
 ## MulticolorLED
 Toggle LED between Blue-Green-Red
-- Uses onboard Tricolor LED near mikriBUS socket 2
-- Add Grove Pushbutton (or sililar) to GHrove Digital socket on ProjectLab right.
+- Uses onboard Tricolor LED located between mikoBUS socket 2 and Boot button
+- Add Grove Pushbutton (or similar) to Grove Digital socket on ProjectLab right.
 
 
 
