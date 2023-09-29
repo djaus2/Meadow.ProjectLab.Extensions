@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPort_Echo", "SerialPo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalIO", "DigitalIO\DigitalIO.csproj", "{D937FE81-5541-4EAC-B846-6FBA45C57D9B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MulticolorLED", "MulticolorLED\MulticolorLED.csproj", "{4E462334-ADD2-4D0E-9661-DA4C61998282}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,12 @@ Global
 		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D937FE81-5541-4EAC-B846-6FBA45C57D9B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E462334-ADD2-4D0E-9661-DA4C61998282}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

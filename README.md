@@ -61,7 +61,10 @@ Simple voltage reading, nonevent driven.
 - Add Grove Angle Sensor (Potentiometer) (or similar) to Grove Analog Socket on ProjectLab right
 - Ref: [Meadow_Basics/IO/Analog/](http://developer.wildernesslabs.co/Meadow/Meadow_Basics/IO/Analog/)
 
-
+## MulticolorLED
+Toggle LED between Blue-Green-Red
+- Uses onboard Tricolor LED near mikriBUS socket 2
+- Add Grove Pushbutton (or sililar) to GHrove Digital socket on ProjectLab right.
 
 
 
