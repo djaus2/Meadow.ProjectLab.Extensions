@@ -12,6 +12,7 @@ Extended demo projects for Meadow ProjectLab.
 - [Meadow ProjectLab Samples](https://github.com/WildernessLabs/Meadow.ProjectLab.Samples)
 - [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples)
 - [Meadow.Foundation.Grove](https://github.com/WildernessLabs/Meadow.Foundation.Grove)
+- [WildernessLabs](https://github.com/Wildernesslabs)
 
 > Nb: Currently .netstandard2.1 projects
 
