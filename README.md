@@ -13,7 +13,7 @@ Extended demo projects for Meadow ProjectLab.
 - [Meadow.Core.Samples](https://github.com/WildernessLabs/Meadow.Core.Samples)
 - [Meadow.Foundation.Grove](https://github.com/WildernessLabs/Meadow.Foundation.Grove)
 - [WildernessLabs](https://github.com/Wildernesslabs)
-- [WildernessLabs fork of MQTTnet](https://github.com/WildernessLabs/MQTTnet) _Got to check this out for another project._
+- [WildernessLabs fork of MQTTnet](https://github.com/WildernessLabs/MQTTnet)
 
 > Nb: Currently .netstandard2.1 projects
 
