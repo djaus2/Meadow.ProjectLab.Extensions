@@ -6,6 +6,7 @@ Extended demo projects for Meadow ProjectLab.
 **_The WILDERNESS LABS Project Lab V3 board_**
 
 ## Links
+- [Blog about Meadow Project Lab](https://davidjones.sportronics.com.au/med/WildernessLabs_Project_Lab-About_Project_Lab_V3-med.html)
 - The target board:  [The Wilderness Labs project V3](https://store.wildernesslabs.co/collections/frontpage/products/project-lab-board)
 - [Meadow ProjectLab_Demo](https://github.com/WildernessLabs/Meadow.ProjectLab/tree/main/Source/)
 - [WildernessLabs/Meadow.ProjectLab](https://github.com/WildernessLabs/Meadow.ProjectLab)
