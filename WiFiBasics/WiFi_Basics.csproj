@@ -7,10 +7,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Meadow.F7" Version="*" />
+    <PackageReference Include="Meadow.ProjectLab" Version="1.3.4" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\..\Meadow.ProjectLab-main\Meadow.ProjectLab-main\Source\Meadow.ProjectLab\Meadow.ProjectLab.csproj" />
-  </ItemGroup>
+  <!-- ItemGroup
+    ProjectReference Include="..\..\..\..\..\..\..\Meadow.ProjectLab-main\Meadow.ProjectLab-main\Source\Meadow.ProjectLab\Meadow.ProjectLab.csproj" 
+  ItemGroup -->
   <ItemGroup>
     <None Update="meadow.config.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
