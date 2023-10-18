@@ -72,6 +72,7 @@ Toggle LED between Blue-Green-Red
 
 ## GPSMode
 - Simple Console app for receiving and paring GPS data.
+- Based upon [WildernessLabs Nmea Processing doc](https://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Libraries_and_Frameworks/Gps_Gnss_Nmea_Processor/)
 - Uses COM1 (as per SerialEcho), with serial GPS device connected.
 
 
