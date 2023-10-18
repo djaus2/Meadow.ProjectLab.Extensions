@@ -70,7 +70,7 @@ Toggle LED between Blue-Green-Red
 - Uses onboard Tricolor LED located between mikoBUS socket 2 and Boot button
 - Add Grove Pushbutton (or similar) to Grove Digital socket on ProjectLab right.
 
-## GPSMode
+## GPSMod
 - Simple Console app for receiving and parsing GPS data.
 - Based upon [WildernessLabs Nmea Processing doc](https://developer.wildernesslabs.co/Meadow/Meadow.Foundation/Libraries_and_Frameworks/Gps_Gnss_Nmea_Processor/)
 - Uses COM1 (as per SerialEcho), with serial GPS device connected.
